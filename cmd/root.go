@@ -18,7 +18,7 @@ var rootCmd = &cobra.Command{
 	Use:   "gomoji",
 	Short: "Elevate your Git commits with 'gomoji' – seamlessly add expressive emojis to your commit messages using this CLI.",
 	Long: `Introducing 'gomoji': Your effortless solution for enhancing Git commit messages. 
-	This CLI seamlessly integrates into your workflow, allowing you to enrich your commits with expressive emojis from gitmoji.com.
+	This CLI seamlessly integrates into your workflow, allowing you to enrich your commits with expressive emojis from gitmoji.dev.
 	Elevate collaboration and code tracking while adding a touch of creativity to your development process.
 	Try 'gomoji' now and revolutionize the way you communicate through commits.`,
 	// Uncomment the following line if your bare application
@@ -42,7 +42,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.gitmoli.yaml)")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.gomoji.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.
@@ -59,10 +59,10 @@ func initConfig() {
 		home, err := os.UserHomeDir()
 		cobra.CheckErr(err)
 
-		// Search config in home directory with name ".gitmoli" (without extension).
+		// Search config in home directory with name ".gomoji" (without extension).
 		viper.AddConfigPath(home)
 		viper.SetConfigType("yaml")
-		viper.SetConfigName(".gitmoli")
+		viper.SetConfigName(".gomoji")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match

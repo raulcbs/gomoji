@@ -1,4 +1,4 @@
-module github.com/raulcbs/gitmoli
+module github.com/raulcbs/gomoji
 
 go 1.20
 

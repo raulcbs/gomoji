@@ -7,11 +7,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/raulcbs/gomoji/pkg"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
 
 var cfgFile string
+var ListEmojis bool
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
@@ -21,9 +23,14 @@ var rootCmd = &cobra.Command{
 	This CLI seamlessly integrates into your workflow, allowing you to enrich your commits with expressive emojis from gitmoji.dev.
 	Elevate collaboration and code tracking while adding a touch of creativity to your development process.
 	Try 'gomoji' now and revolutionize the way you communicate through commits.`,
-	// Uncomment the following line if your bare application
-	// has an action associated with it:
-	// Run: func(cmd *cobra.Command, args []string) { },
+	Run: func(cmd *cobra.Command, args []string) {
+		if ListEmojis {
+			emojis, _ := pkg.ListEmojisAvaliable()
+			for _, emoji := range emojis {
+				fmt.Printf("%v - %v - %v\n\n", emoji.Icon, emoji.Code, emoji.Name)
+			}
+		}
+	},
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
@@ -37,16 +44,10 @@ func Execute() {
 
 func init() {
 	cobra.OnInitialize(initConfig)
-
-	// Here you will define your flags and configuration settings.
-	// Cobra supports persistent flags, which, if defined here,
-	// will be global for your application.
-
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.gomoji.yaml)")
 
-	// Cobra also supports local flags, which will only run
-	// when this action is called directly.
 	rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	rootCmd.Flags().BoolVarP(&ListEmojis, "list-emojis", "l", false, "List emojis avaliable")
 }
 
 // initConfig reads in config file and ENV variables if set.

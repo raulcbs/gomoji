@@ -1,0 +1,440 @@
+[
+ {
+  "id": 1,
+  "icon": "🎨",
+  "code": ":art:",
+  "name": "Improve structure / format of the code."
+ },
+ {
+  "id": 2,
+  "icon": "⚡️",
+  "code": ":zap:",
+  "name": "Improve performance."
+ },
+ {
+  "id": 3,
+  "icon": "🔥",
+  "code": ":fire:",
+  "name": "Remove code or files."
+ },
+ {
+  "id": 4,
+  "icon": "🐛",
+  "code": ":bug:",
+  "name": "Fix a bug."
+ },
+ {
+  "id": 5,
+  "icon": "🚑️",
+  "code": ":ambulance:",
+  "name": "Critical hotfix."
+ },
+ {
+  "id": 6,
+  "icon": "✨",
+  "code": ":sparkles:",
+  "name": "Introduce new features."
+ },
+ {
+  "id": 7,
+  "icon": "📝",
+  "code": ":memo:",
+  "name": "Add or update documentation."
+ },
+ {
+  "id": 8,
+  "icon": "🚀",
+  "code": ":rocket:",
+  "name": "Deploy stuff."
+ },
+ {
+  "id": 9,
+  "icon": "💄",
+  "code": ":lipstick:",
+  "name": "Add or update the UI and style files."
+ },
+ {
+  "id": 10,
+  "icon": "🎉",
+  "code": ":tada:",
+  "name": "Begin a project."
+ },
+ {
+  "id": 11,
+  "icon": "✅",
+  "code": ":white_check_mark:",
+  "name": "Add, update, or pass tests."
+ },
+ {
+  "id": 12,
+  "icon": "🔒️",
+  "code": ":lock:",
+  "name": "Fix security issues."
+ },
+ {
+  "id": 13,
+  "icon": "🔐",
+  "code": ":closed_lock_with_key:",
+  "name": "Add or update secrets."
+ },
+ {
+  "id": 14,
+  "icon": "🔖",
+  "code": ":bookmark:",
+  "name": "Release / Version tags."
+ },
+ {
+  "id": 15,
+  "icon": "🚨",
+  "code": ":rotating_light:",
+  "name": "Fix compiler / linter warnings."
+ },
+ {
+  "id": 16,
+  "icon": "🚧",
+  "code": ":construction:",
+  "name": "Work in progress."
+ },
+ {
+  "id": 17,
+  "icon": "💚",
+  "code": ":green_heart:",
+  "name": "Fix CI Build."
+ },
+ {
+  "id": 18,
+  "icon": "⬇️",
+  "code": ":arrow_down:",
+  "name": "Downgrade dependencies."
+ },
+ {
+  "id": 19,
+  "icon": "⬆️",
+  "code": ":arrow_up:",
+  "name": "Upgrade dependencies."
+ },
+ {
+  "id": 20,
+  "icon": "📌",
+  "code": ":pushpin:",
+  "name": "Pin dependencies to specific versions."
+ },
+ {
+  "id": 21,
+  "icon": "👷",
+  "code": ":construction_worker:",
+  "name": "Add or update CI build system."
+ },
+ {
+  "id": 22,
+  "icon": "📈",
+  "code": ":chart_with_upwards_trend:",
+  "name": "Add or update analytics or track code."
+ },
+ {
+  "id": 23,
+  "icon": "♻️",
+  "code": ":recycle:",
+  "name": "Refactor code."
+ },
+ {
+  "id": 24,
+  "icon": "➕",
+  "code": ":heavy_plus_sign:",
+  "name": "Add a dependency."
+ },
+ {
+  "id": 25,
+  "icon": "➖",
+  "code": ":heavy_minus_sign:",
+  "name": "Remove a dependency."
+ },
+ {
+  "id": 26,
+  "icon": "🔧",
+  "code": ":wrench:",
+  "name": "Add or update configuration files."
+ },
+ {
+  "id": 27,
+  "icon": "🔨",
+  "code": ":hammer:",
+  "name": "Add or update development scripts."
+ },
+ {
+  "id": 28,
+  "icon": "🌐",
+  "code": ":globe_with_meridians:",
+  "name": "Internationalization and localization."
+ },
+ {
+  "id": 29,
+  "icon": "✏️",
+  "code": ":pencil2:",
+  "name": "Fix typos."
+ },
+ {
+  "id": 30,
+  "icon": "💩",
+  "code": ":poop:",
+  "name": "Write bad code that needs to be improved."
+ },
+ {
+  "id": 31,
+  "icon": "⏪️",
+  "code": ":rewind:",
+  "name": "Revert changes."
+ },
+ {
+  "id": 32,
+  "icon": "🔀",
+  "code": ":twisted_rightwards_arrows:",
+  "name": "Merge branches."
+ },
+ {
+  "id": 33,
+  "icon": "📦️",
+  "code": ":package:",
+  "name": "Add or update compiled files or packages."
+ },
+ {
+  "id": 34,
+  "icon": "👽️",
+  "code": ":alien:",
+  "name": "Update code due to external API changes."
+ },
+ {
+  "id": 35,
+  "icon": "🚚",
+  "code": ":truck:",
+  "name": "Move or rename resources (e.g.: files, paths, routes)."
+ },
+ {
+  "id": 36,
+  "icon": "📄",
+  "code": ":page_facing_up:",
+  "name": "Add or update license."
+ },
+ {
+  "id": 37,
+  "icon": "💥",
+  "code": ":boom:",
+  "name": "Introduce breaking changes."
+ },
+ {
+  "id": 38,
+  "icon": "🍱",
+  "code": ":bento:",
+  "name": "Add or update assets."
+ },
+ {
+  "id": 39,
+  "icon": "♿️",
+  "code": ":wheelchair:",
+  "name": "Improve accessibility."
+ },
+ {
+  "id": 40,
+  "icon": "💡",
+  "code": ":bulb:",
+  "name": "Add or update comments in source code."
+ },
+ {
+  "id": 41,
+  "icon": "🍻",
+  "code": ":beers:",
+  "name": "Write code drunkenly."
+ },
+ {
+  "id": 42,
+  "icon": "💬",
+  "code": ":speech_balloon:",
+  "name": "Add or update text and literals."
+ },
+ {
+  "id": 43,
+  "icon": "🗃️",
+  "code": ":card_file_box:",
+  "name": "Perform database related changes."
+ },
+ {
+  "id": 44,
+  "icon": "🔊",
+  "code": ":loud_sound:",
+  "name": "Add or update logs."
+ },
+ {
+  "id": 45,
+  "icon": "🔇",
+  "code": ":mute:",
+  "name": "Remove logs."
+ },
+ {
+  "id": 46,
+  "icon": "👥",
+  "code": ":busts_in_silhouette:",
+  "name": "Add or update contributor(s)."
+ },
+ {
+  "id": 47,
+  "icon": "🚸",
+  "code": ":children_crossing:",
+  "name": "Improve user experience / usability."
+ },
+ {
+  "id": 48,
+  "icon": "🏗️",
+  "code": ":building_construction:",
+  "name": "Make architectural changes."
+ },
+ {
+  "id": 49,
+  "icon": "📱",
+  "code": ":iphone:",
+  "name": "Work on responsive design."
+ },
+ {
+  "id": 50,
+  "icon": "🤡",
+  "code": ":clown_face:",
+  "name": "Mock things."
+ },
+ {
+  "id": 51,
+  "icon": "🥚",
+  "code": ":egg:",
+  "name": "Add or update an easter egg."
+ },
+ {
+  "id": 52,
+  "icon": "🙈",
+  "code": ":see_no_evil:",
+  "name": "Add or update a .gitignore file."
+ },
+ {
+  "id": 53,
+  "icon": "📸",
+  "code": ":camera_flash:",
+  "name": "Add or update snapshots."
+ },
+ {
+  "id": 54,
+  "icon": "⚗️",
+  "code": ":alembic:",
+  "name": "Perform experiments."
+ },
+ {
+  "id": 55,
+  "icon": "🔍️",
+  "code": ":mag:",
+  "name": "Improve SEO."
+ },
+ {
+  "id": 56,
+  "icon": "🏷️",
+  "code": ":label:",
+  "name": "Add or update types."
+ },
+ {
+  "id": 57,
+  "icon": "🌱",
+  "code": ":seedling:",
+  "name": "Add or update seed files."
+ },
+ {
+  "id": 58,
+  "icon": "🚩",
+  "code": ":triangular_flag_on_post:",
+  "name": "Add, update, or remove feature flags."
+ },
+ {
+  "id": 59,
+  "icon": "🥅",
+  "code": ":goal_net:",
+  "name": "Catch errors."
+ },
+ {
+  "id": 60,
+  "icon": "💫",
+  "code": ":dizzy:",
+  "name": "Add or update animations and transitions."
+ },
+ {
+  "id": 61,
+  "icon": "🗑️",
+  "code": ":wastebasket:",
+  "name": "Deprecate code that needs to be cleaned up."
+ },
+ {
+  "id": 62,
+  "icon": "🛂",
+  "code": ":passport_control:",
+  "name": "Work on code related to authorization, roles and permissions."
+ },
+ {
+  "id": 63,
+  "icon": "🩹",
+  "code": ":adhesive_bandage:",
+  "name": "Simple fix for a non-critical issue."
+ },
+ {
+  "id": 64,
+  "icon": "🧐",
+  "code": ":monocle_face:",
+  "name": "Data exploration/inspection."
+ },
+ {
+  "id": 65,
+  "icon": "⚰️",
+  "code": ":coffin:",
+  "name": "Remove dead code."
+ },
+ {
+  "id": 66,
+  "icon": "🧪",
+  "code": ":test_tube:",
+  "name": "Add a failing test."
+ },
+ {
+  "id": 67,
+  "icon": "👔",
+  "code": ":necktie:",
+  "name": "Add or update business logic."
+ },
+ {
+  "id": 68,
+  "icon": "🩺",
+  "code": ":stethoscope:",
+  "name": "Add or update healthcheck."
+ },
+ {
+  "id": 69,
+  "icon": "🧱",
+  "code": ":bricks:",
+  "name": "Infrastructure related changes."
+ },
+ {
+  "id": 70,
+  "icon": "🧑‍💻",
+  "code": ":technologist:",
+  "name": "Improve developer experience."
+ },
+ {
+  "id": 71,
+  "icon": "💸",
+  "code": ":money_with_wings:",
+  "name": "Add sponsorships or money related infrastructure."
+ },
+ {
+  "id": 72,
+  "icon": "🧵",
+  "code": ":thread:",
+  "name": "Add or update code related to multithreading or concurrency."
+ },
+ {
+  "id": 73,
+  "icon": "🦺",
+  "code": ":safety_vest:",
+  "name": "Add or update code related to validation."
+ }
+]

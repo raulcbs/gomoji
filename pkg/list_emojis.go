@@ -1,20 +1,13 @@
 package pkg
 
 import (
-	"encoding/json"
-	"errors"
-	"os"
+	"github.com/raulcbs/gomoji/utils"
 )
 
-func ListEmojisAvaliable() ([]Emoji, error) {
-	var emojis []Emoji
+func ListEmojisAvaliable() ([]utils.Emoji, error) {
+	var emojis []utils.Emoji
 
-	bytValue, err := os.ReadFile("emojis.json")
-	if err != nil {
-		return []Emoji{}, errors.New("error to read the json with contents of emojis")
-	}
-
-	json.Unmarshal(bytValue, &emojis)
+	utils.GetEmojisFromJSON(&emojis)
 
 	return emojis, nil
 }

@@ -7,17 +7,11 @@ import (
 	"sync"
 
 	"github.com/gocolly/colly"
+	"github.com/raulcbs/gomoji/utils"
 )
 
-type Emoji struct {
-	Id   int    `json:"id"`
-	Icon string `json:"icon"`
-	Code string `json:"code"`
-	Name string `json:"name"`
-}
-
-func GetMojis() []Emoji {
-	var emojis []Emoji
+func GetMojis() []utils.Emoji {
+	var emojis []utils.Emoji
 	var mu sync.Mutex // Mutex to ensure safe concurrent access
 
 	c := colly.NewCollector(
@@ -27,7 +21,7 @@ func GetMojis() []Emoji {
 	counter := 1 // Counter for generating unique IDs
 
 	c.OnHTML("article.styles_emoji__nVHNW", func(e *colly.HTMLElement) {
-		singleEmoji := Emoji{}
+		singleEmoji := utils.Emoji{}
 		singleEmoji.Id = counter // Assign unique ID
 		counter++                // Increment counter
 
